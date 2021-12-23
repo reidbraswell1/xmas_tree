@@ -1,7 +1,10 @@
 class ChristmasTree {
-    constructor(height, width);
+    constructor(height, width) {
+        this.height = height;
+        this.width = width;
+    }
 
-    generate(heignt) {
+    generate() {
         document.write("");
         for(let i=1; i <= height; i++) {
             
