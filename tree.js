@@ -41,7 +41,7 @@ class ChristmasTree {
     for (let i = 0; i < 2; i++) {
       for (let j = 0; j <= center; j++) {
         if (j == center) {
-          document.write('<span>"</span>');
+          document.write('<span class=\"tree-trunk\">"</span>');
           document.write("<br>");
         } else {
           document.write("&nbsp;");
