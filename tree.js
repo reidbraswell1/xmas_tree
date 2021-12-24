@@ -55,4 +55,6 @@ class ChristmasTree {
   }
 }
 let tree = new ChristmasTree();
+
+// Generate a tree of height 20
 tree.generate(20);
