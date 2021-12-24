@@ -6,7 +6,10 @@ class ChristmasTree {
     let maxWidth = height * 2;
     let center = maxWidth / 2 + 1;
 
+    // Fixed width text
     document.write("<pre>");
+
+    // Outer loop for tree height
     for (let i = 1; i <= height; i++) {
       let indent = height - i;
 
