@@ -58,6 +58,8 @@ let tree = new ChristmasTree();
 
 // Generate a tree of height 20
 tree.generate(20);
+
+// Change tree top color
 setInterval(function() {
   let currentColor = document.getElementById("top").style.color;
   document.getElementById("top").style.color = "blue";
@@ -66,6 +68,9 @@ setInterval(function() {
       document.getElementById("top").style.color = "blue";
       break;
     case "blue":
+      document.getElementById("top").style.color = "black";
+      break;
+    case "black":
       document.getElementById("top").style.color = "red";
       break;
   }
