@@ -58,3 +58,15 @@ let tree = new ChristmasTree();
 
 // Generate a tree of height 20
 tree.generate(20);
+setInterval(function() {
+  let currentColor = document.getElementById("top").style.color;
+  document.getElementById("top").style.color = "blue";
+  switch (currentColor) {
+    case "red":
+      document.getElementById("top").style.color = "blue";
+      break;
+    case "blue":
+      document.getElementById("top").style.color = "red";
+      break;
+  }
+}, 1500);
